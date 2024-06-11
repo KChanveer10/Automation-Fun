@@ -104,7 +104,7 @@ python fun.py <folder_path> <keywords> --extension <file_extension>
 
 ### Running the Executable
 
-Run the executable from the command line, passing the folder path, keywords, and file extension as arguments:
+Run the executable from the command line, passing the folder path in which file could exists, filename, and file extension as arguments:
 1. **For File Finder Utility**
 ```sh
 dist/<exe file> <folder_path> <filename> --extension <file_extension>
