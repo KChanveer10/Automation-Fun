@@ -64,10 +64,9 @@ The File Finder Utility is a command-line tool designed to search for files with
 
 ### Installation
 
-1. **Clone the repository** (if applicable):
+1. **Clone the repository**:
     ```sh
-    git clone https://github.com/yourusername/file-finder-utility.git
-    cd file-finder-utility
+    git clone https://github.com/KChanveer10/Automation-Fun.git
     ```
 
 2. **Install dependencies**:
@@ -82,7 +81,7 @@ The File Finder Utility is a command-line tool designed to search for files with
 You can run the script directly using Python:
 
 ```sh
-python file_finder.py <folder_path> <keywords> --extension <file_extension>
+python fun.py <folder_path> <keywords> --extension <file_extension>
 ```
 
 ### Creating an Executable
@@ -108,7 +107,7 @@ python file_finder.py <folder_path> <keywords> --extension <file_extension>
 Run the executable from the command line, passing the folder path, keywords, and file extension as arguments:
 1. **For File Finder Utility**
 ```sh
-dist/<exe file> <folder_path> <keywords> --extension <file_extension>
+dist/<exe file> <folder_path> <filename> --extension <file_extension>
 ```
 2. **For  GitHub File Downloader**
 ```sh
